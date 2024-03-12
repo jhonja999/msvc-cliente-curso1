@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@FeignClient(name = "msvc-clientes",url = "localhost:8001/api/cliente")
+@FeignClient(name = "msvc-clientes",url = "localhost:8002/api/cliente")
 public interface ClientesClientRest {
     //2 metodos detalle(id) y crear(obj)
 
